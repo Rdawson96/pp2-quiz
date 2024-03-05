@@ -5,3 +5,18 @@
     border: none;
 }
 
+body {
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#quiz {
+    background-color: #114B5F;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
