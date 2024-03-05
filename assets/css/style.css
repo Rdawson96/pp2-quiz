@@ -6,17 +6,31 @@
 }
 
 body {
-    background-color: #FFFFFF;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#quiz {
     background-color: #114B5F;
+    text-align: center;
+    color: #114B5F;
+    font-family: 'nunito', sans-serif;
+}
+/* quiz area styling */
+#quiz-box {
+    background-color: #FFFFFF;
     width: 80%;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #114B5F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'nunito', sans-serif;
+    font-size: 18px;
+    margin: 0 5px;
 }
