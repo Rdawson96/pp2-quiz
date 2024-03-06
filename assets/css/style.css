@@ -1,36 +1,98 @@
-/* Global styles */
+/*Imported font from Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap')
+
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
 }
+
 
 body {
     background-color: #114B5F;
     text-align: center;
     color: #114B5F;
     font-family: 'nunito', sans-serif;
-}
-/* quiz area styling */
-#quiz-box {
-    background-color: #FFFFFF;
-    width: 80%;
-    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px auto;
-    border-radius: 10px;
 }
 
-.btn {
+
+#quiz-container {
+    background-color: #FFFFFF;
+    width: 80%;
+    max-width: 700px;
+    margin: 40px auto 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#question-number {
+    font-size: 1rem;
+}
+
+#answers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#monument-name {
+    border-radius: 10px 10px 0 0;
+    background-color: #F45B69;
+    padding: 10px 0;
+
+}
+
+#monument-img {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 0 0 10px 10px;
+    margin: 0 0 10px;
+}
+
+.answer-btn {
+    background-color: #114c5f5b;
+    color: #000000;
+    width: 90%;
+    margin: 0 auto;
     padding: 15px 30px;
-    background-color: #114B5F;
-    color: #FFFFFF;
     border: none;
     border-radius: 10px;
-    font-family: 'nunito', sans-serif;
     font-size: 18px;
-    margin: 0 5px;
+    margin: 2px 5px;
+}
+
+.answer-btn:hover {
+    background-color: #F45B69;
+}
+
+#nav-btn-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-btn {
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 2px 5px;
+    padding: 15px 0;
+}
+
+.nav-btn:hover {
+    background-color: #F45B69;
+}
+
+.scores {
+    display: inline-block;
+    padding: 10px;
 }
